@@ -7,7 +7,6 @@ import java.util.stream.Collectors;
 
 public class Part2 {
 
-
     public int sumOfPoints(List<Pair<Figure, Result>> figures) {
         int sum = 0;
         for (Pair<Figure, Result> pair : figures) {

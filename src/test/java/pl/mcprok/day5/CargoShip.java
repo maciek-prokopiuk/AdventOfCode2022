@@ -1,19 +1,18 @@
 package pl.mcprok.day5;
 
 import org.junit.jupiter.api.Test;
-import pl.mcprok.utils.Utils;
+import pl.mcprok.utils.Base;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.List;
 import java.util.Stack;
 
-public class CargoShip {
-    Utils utils = new Utils();
+public class CargoShip extends Base {
 
     @Test
     public void test() throws URISyntaxException, IOException {
-        List<String> commands = utils.getLinesFromInput("day5/input.txt");
+        List<String> commands = getLinesFromInput("day5/input.txt");
 
         var cargoShip = new CargoShip();
         System.out.println(cargoShip.topOfTheStacks_part2(commands, cargoShip.getInput()));

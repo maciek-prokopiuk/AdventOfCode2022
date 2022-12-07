@@ -10,9 +10,7 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Utils {
-    public Utils() {
-    }
+public class Base {
 
     public List<String> getLinesFromInput(String inputFile) throws URISyntaxException, IOException {
         URL res = this.getClass().getClassLoader().getResource(inputFile);
