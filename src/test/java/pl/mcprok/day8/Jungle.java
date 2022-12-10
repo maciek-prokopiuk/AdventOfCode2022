@@ -21,6 +21,26 @@ public class Jungle extends Base {
             {3, 3, 5, 4, 9},
             {3, 5, 3, 9, 0}};
 
+    // parse to rows and columns
+
+    /*
+            {true, true, true, true, true},
+            {true, true, true, false, true},
+            {true, false, false, false, true},
+            {true, false, true, false, true},
+            {true, true, true, true, true},
+
+
+    public int countVisibleLinear(int[][] grid) { // grid is square
+        boolean[][] visibility = new boolean[grid.length][grid.length];
+        for (int i = 0; i < grid.length;i++) {
+            // lecimy po przekątnej i za każdym razem przechodzimy po kolumnie i wierszu w którym jestesmy
+            // od początku i od tyłu i dopóki mamy
+        }
+    }
+
+     */
+
     @Test
     public void part1() throws URISyntaxException, IOException {
         var grid = new int[99][99];
